@@ -27,17 +27,19 @@ public class Rectangle extends Shape implements Resizeable {
 	}
 
 //als shift s source override implement method하기
+	//resize() method override
 
-	@Override
+	@Override 
 
 	public void resize(double s) {
 
 	width = width* s;
 
 	height = height* s;
+	
+	}
 
-
-
+	//getArea() method override
 	@Override
 
 	public double getArea() {

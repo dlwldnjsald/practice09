@@ -41,7 +41,7 @@ public class RectTriangle extends Shape{
 		return 0;
 	}
 
-	
+}
 
 
 
