@@ -28,7 +28,8 @@ public class ShapeApp {
             System.out.println( "perimeter: " + sList.get(i).getPerimeter() );
             
             //----------------------------------------------------
-            //if문 돌려서 i의 인덱스값이 인터페이스로부터 생성된 객체인지 물어보고?
+            //if문 돌려서 i의 인덱스값이 인터페이스로부터 생성된 객체인지 물어보기?
+            //instanceof는 다운캐스팅시 어떤 클래스를 객체화한것인지 알고자 할때 사용됨
             //resize()methode를 이용해서 리사이즈해주기 (캐스팅)및 새로운 파라미터 할당(0,5)
             if( sList.get(i) instanceof Resizeable ) {
                 ((Resizeable)sList.get(i)).resize( 0.5 );
