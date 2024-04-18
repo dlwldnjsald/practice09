@@ -8,7 +8,7 @@ public class Rectangle extends Shape implements Resizeable {
 
 
 
-//필드
+//필드/
 
 	private double width;
 

@@ -6,7 +6,7 @@ public class RectTriangle extends Shape{
 
 
 
-//필드
+//필드/
 
 	private double width;
 
