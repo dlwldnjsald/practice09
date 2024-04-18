@@ -26,13 +26,13 @@ public class RectTriangle extends Shape{
 	@Override
 	public double getArea() {
 		// TODO Auto-generated method stub
-		return 0;
+		return width * height / 2 ;
 	}
 
 	@Override
 	public double getPerimeter() {
 		// TODO Auto-generated method stub
-		return 0;
+		return width + height + Math.sqrt(Math.pow(width, 2) + Math.pow(height, 2)) ;
 	}
 	//여기서 나중에 넓이과 길이에 대한 0값을 리턴해주는것 
 	

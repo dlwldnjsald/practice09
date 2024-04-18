@@ -8,6 +8,7 @@ public class ShapeApp {
     public static void main(String[] args) {
     	
     	//리스트 사용해서 shape갖다 쓰는 새로운 배열리스트 객체 생성
+    	//<shape>가 갖고있는 모든 객체들?이 담길수 있을 것
         List<Shape> sList = new ArrayList<Shape>(); 
         
         //---------------------------------------------
