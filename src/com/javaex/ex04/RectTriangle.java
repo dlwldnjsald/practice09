@@ -34,7 +34,7 @@ public class RectTriangle extends Shape{
 		// TODO Auto-generated method stub
 		return 0;
 	}
-	
+	//여기서 나중에 넓이과 길이에 대한 0값을 리턴해주는것 
 	
 
 }
