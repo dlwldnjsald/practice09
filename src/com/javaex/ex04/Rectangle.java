@@ -18,7 +18,7 @@ public class Rectangle extends Shape implements Resizeable {
 	}
 
 	//-------------------------------------------------------
-	//als shift s source override implement method하기
+	//alt.+ shift s source override implement method하기
 	
 	//resize() method 위에서 인터페이스 선언해주었기때문에 
 	//그 안의 메소드 구현해주기위해
